@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atividade Desafio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <script src="javascript/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="ini" role="alert">
+        Calculadora de Área e Valor de Piso
+      </div>
+      <div class="dados">
+        <p class="legenda">Nome</p>
+        <input
+          id="nom"
+          class="info"
+          type="text"
+          placeholder="Digite seu nome"
+        />
+        <p class="legenda">Orçamento</p>
+        <input
+          id="orc"
+          class="info1"
+          type="text"
+          placeholder="Digite o valor disponível"
+        />
+        <p class="legenda">Largura</p>
+        <input id="lar" class="info1" type="text" />
+        <p class="legenda">Comprimento</p>
+        <input id="com" class="info1" type="text" />
+        <p class="legenda">Piso R$</p>
+        <input id="pis" class="info1" type="text" />
+        <p class="legenda">Argamassa R$</p>
+        <input id="arg" class="info1" type="text" />
+        <button class="btn btn-outline-light dist" onclick="teste()">
+          Calcular
+        </button>
+        <button class="btn btn-outline-light dist" onclick="window.location.reload()">
+          Limpar
+        </button>
+      </div>
+      <div class="resposta">
+        <p><b> Área: </b><span id="rarea"> m²</span></p>
+        <p><b> Armagassa Unidade: </b><span id="unidarg"></span></p>
+        <p><b> Piso: </b>R$ <span id="valorpiso"></span></p>
+        <p><b> Argamassa: </b>R$ <span id="valorarg"></span></p>
+        <p><b> Total da compra: </b>R$ <span id="totalcom"></span></p>
+        <p><b> Resposta: </b><span id="nao" class="sim nao"></span></p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

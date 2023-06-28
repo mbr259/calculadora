@@ -1,0 +1,59 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    width: 560px;
+    height: 1000px;
+    background-image: url(/imagens/Fundo_004.png);
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    
+}
+.ini{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+}
+.espaco{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 40px;
+}
+.dados{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.legenda{
+    height: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.info{
+    width: 400px;
+    height: 50px;
+}
+.info1{
+    width: 300px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.resposta{
+    width: 400px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 200px;
+
+}
+.dist{
+    margin-top: 10px;
+    height: 60px;
+}
